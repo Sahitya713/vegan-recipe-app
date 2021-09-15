@@ -1,0 +1,38 @@
+{
+  "name": "veganrecipe",
+  "version": "1.0.0",
+  "description": "Keep track of all your vegan recipes",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Bairi Sahitya",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.853.0",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.21.5",
+    "express": "~4.16.1",
+    "express-mongo-sanitize": "^2.0.1",
+    "helmet": "^4.4.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.11.8",
+    "morgan": "~1.9.1",
+    "multer": "^1.4.2",
+    "prettier": "^2.2.1",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
